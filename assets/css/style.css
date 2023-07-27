@@ -1,0 +1,22 @@
+:root{
+    --color-fondo-nabvar: #00249C;
+}
+body{    
+    overflow-x: hidden;
+}
+.container-navbar{
+    background-color: var(--color-fondo-nabvar);
+    border-radius: 15px;
+}
+.container-body{
+    background-image: url("/assets/img/Background.svg");
+}
+.iconos{
+    padding: 20px 20px 362px
+}
+.img-navbar{
+    margin: 20px 10px;
+}
+.img-navbar-Hamburguesa-B{
+    margin: 20px 3px;
+}
