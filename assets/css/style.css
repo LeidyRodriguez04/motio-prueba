@@ -1,14 +1,15 @@
 :root{
-    --color-fondo-nabvar: #00249C;
+    --color-azul-oscuro: #00249C;
+    --tipografia-titulo-principal: font-family: 'Montserrat', sans-serif;
 }
 body{    
     overflow-x: hidden;
 }
 .container-navbar{
-    background-color: var(--color-fondo-nabvar);
+    background-color: var(--color-azul-oscuro);
     border-radius: 15px;
 }
-.container-body{
+.container-fondo{
     background-image: url("/assets/img/Background.svg");
 }
 .iconos{
@@ -19,4 +20,21 @@ body{
 }
 .img-navbar-Hamburguesa-B{
     margin: 20px 3px;
+}
+.container-boton{
+    padding: 190px 50px;
+}
+.toggle{
+    display: inline-block;
+}
+#boton{
+    position: relative;
+    top: -10px;
+}
+.container-body{
+    padding-top: 50px;
+}
+.title-main{
+    font-family: var(--tipografia-titulo-principal);
+    color: var(--color-azul-oscuro);
 }
