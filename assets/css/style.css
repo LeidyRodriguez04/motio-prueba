@@ -1,6 +1,15 @@
 :root{
     --color-azul-oscuro: #00249C;
+    --color-gris-claro: #A8A8A8; 
+    --color-azul-celeste: #40CEE4;
     --tipografia-titulo-principal: font-family: 'Montserrat', sans-serif;
+    --tamaño-titulo-principal: 3.3rem;
+    --tamaño-parrafo-principal: 1.5rem;
+    --tamaño-parrafo-cuadro: 1rem;
+    --negrilla-tiulo-principal: 900;
+    --negrilla-parrafo1: 500;
+    --interlineado-parrafo1: 15px; 
+    --interlineado-parrafo2: 20px;
 }
 body{    
     overflow-x: hidden;
@@ -13,16 +22,16 @@ body{
     background-image: url("/assets/img/Background.svg");
 }
 .iconos{
-    padding: 20px 20px 362px
+    padding: 20px 20px 392px
 }
 .img-navbar{
-    margin: 20px 10px;
+    margin: 15px 10px;
 }
 .img-navbar-Hamburguesa-B{
     margin: 20px 3px;
 }
 .container-boton{
-    padding: 190px 50px;
+    padding: 175px 50px;
 }
 .toggle{
     display: inline-block;
@@ -32,9 +41,55 @@ body{
     top: -10px;
 }
 .container-body{
-    padding-top: 50px;
+    padding-top: 20px;
+
+}
+.container-title{
+    height: 225px;
+    display: flex;
+    justify-content: left;
 }
 .title-main{
     font-family: var(--tipografia-titulo-principal);
     color: var(--color-azul-oscuro);
+    font-size: var(--tamaño-titulo-principal);
+    font-weight: var(--negrilla-tiulo-principal);
+    align-self: flex-end;
+}
+#logo-motion{
+    width: 95px;
+    padding-bottom: 30PX;
+}
+#logo-app{
+    padding-bottom: 60PX;
+}
+.container-parrafo{
+    display: inline-block;
+}
+#container-cuadro{
+    width: 230px;
+    height: 150px;
+    background-color: var(--color-azul-celeste);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -120;
+    left: 40;
+}
+.parrafo1{
+    font-family: var(--tipografia-titulo-principal);
+    font-size: var(--tamaño-parrafo-cuadro);
+    color: var(--color-azul-oscuro);   
+    line-height: var(--interlineado-parrafo1); 
+    font-weight: var(--negrilla-parrafo1);
+    align-content: center;
+    text-align: justify;
+    margin: 50px 20px;
+}
+.parrafo2{
+    font-family: var(--tipografia-titulo-principal);
+    font-size: var(--tamaño-parrafo-principal);
+    color: var(--color-gris-claro);   
+    line-height: var(--interlineado-parrafo2); 
 }
