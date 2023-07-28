@@ -3,9 +3,9 @@
     --color-gris-claro: #A8A8A8; 
     --color-azul-celeste: #40CEE4;
     --tipografia-titulo-principal: font-family: 'Montserrat', sans-serif;
-    --tamaño-titulo-principal: 3.3rem;
-    --tamaño-parrafo-principal: 1.4rem;
-    --tamaño-parrafo-cuadro: 1rem;
+    --tamano-titulo-principal: 3.3rem;
+    --tamano-parrafo-principal: 1.4rem;
+    --tamano-parrafo-cuadro: 1rem;
     --negrilla-tiulo-principal: 900;
     --negrilla-parrafo1: 500;
     --interlineado-parrafo1: 15px; 
@@ -55,7 +55,7 @@ body{
 .title-main{
     font-family: var(--tipografia-titulo-principal);
     color: var(--color-azul-oscuro);
-    font-size: var(--tamaño-titulo-principal);
+    font-size: var(--tamano-titulo-principal);
     font-weight: var(--negrilla-tiulo-principal);
     align-self: flex-end;
 }
@@ -82,7 +82,7 @@ body{
 }
 .parrafo1{
     font-family: var(--tipografia-titulo-principal);
-    font-size: var(--tamaño-parrafo-cuadro);
+    font-size: var(--tamano-parrafo-cuadro);
     color: var(--color-azul-oscuro);   
     line-height: var(--interlineado-parrafo1); 
     font-weight: var(--negrilla-parrafo1);
@@ -92,7 +92,7 @@ body{
 }
 .parrafo2{
     font-family: var(--tipografia-titulo-principal);
-    font-size: var(--tamaño-parrafo-principal);
+    font-size: var(--tamano-parrafo-principal);
     color: var(--color-gris-claro);   
     line-height: var(--interlineado-parrafo2); 
 }
@@ -109,7 +109,7 @@ body{
 }
 #parrafo-cuadro2{
     font-family: var(--tipografia-titulo-principal);
-    font-size: var(--tamaño-parrafo-principal);
+    font-size: var(--tamano-parrafo-principal);
     color: var(--color-azul-oscuro);
     line-height: var(--interlineado-parrafo2);
     font-weight: var(--negrilla-parrafo1);
